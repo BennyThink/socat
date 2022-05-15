@@ -3,9 +3,10 @@ on:
   push:
     branches:
       - 'master'
+
   schedule:
-    - cron: '55 * * * *'
-  
+    - cron: "55 * * * *"
+
 jobs:
   docker:
     runs-on: ubuntu-latest
